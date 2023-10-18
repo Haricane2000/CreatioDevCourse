@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "341c61c8-d940-47a7-baf2-4f169f5d5b0e",
+    "Name": "KdTestProcess",
+    "ModifiedOnUtc": "\/Date(1697642067000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Бизнес-процесс 1",
+    "DependsOn": []
+  }
+}

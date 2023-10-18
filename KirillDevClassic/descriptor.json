@@ -1,0 +1,17 @@
+﻿{
+  "Descriptor": {
+    "UId": "646fe0bc-d408-f935-01db-e0c11c3f2534",
+    "Name": "KirillDevClassic",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1697641836000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/KirillDevClassic.csproj",
+    "DependsOn": [
+      {
+        "UId": "3f299622-2079-4a62-ba18-6d32c1d0d6af",
+        "PackageVersion": "7.8.0",
+        "Name": "SalesEnterprise_Marketing_ServiceEnt"
+      }
+    ]
+  }
+}

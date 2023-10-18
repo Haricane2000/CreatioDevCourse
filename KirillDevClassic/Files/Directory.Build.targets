@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/KirillDevClassic/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/KirillDevClassic/Data/**" />
+		<Compile Remove="$(PkgPath)/KirillDevClassic/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/KirillDevClassic/Schemas\**" />
+		<Compile Remove="$(PkgPath)/KirillDevClassic/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/KirillDevClassic/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/KirillDevClassic/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/KirillDevClassic/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/KirillDevClassic/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/KirillDevClassic/Resources/**" />
+		<None Remove="$(PkgPath)/KirillDevClassic/Assemblies/**" />
+		<None Remove="$(PkgPath)/KirillDevClassic/Data/**" />
+		<None Remove="$(PkgPath)/KirillDevClassic/SqlScripts/**" />
+		<None Remove="$(PkgPath)/KirillDevClassic/Schemas/**" />
+		<None Remove="$(PkgPath)/KirillDevClassic/Resources/**" />
+  </ItemGroup>
+</Project>
